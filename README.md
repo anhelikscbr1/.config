@@ -16,7 +16,10 @@ Update repos!
 ```
 sudo apt update && sudo apt upgrade
 ```
-Install required tools
+Install required tools and a NerdFont from https://www.nerdfonts.com/font-downloads
+
+My favorite is: [JetBrainsMono](https://www.programmingfonts.org/#jetbrainsmono)
+
 ```
 sudo apt install make gcc ripgrep unzip git xclip
 sudo apt update && sudo apt upgrade
