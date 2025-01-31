@@ -46,6 +46,9 @@ require("lazy").setup({
     require 'plugins.autocompletion', --needed in order to lsp properly working
     require 'plugins.lsp',
     require 'plugins.misc',
+    require 'plugins.gitsigns',
+    require 'plugins.startscreenalpha',
+    --require 'plugins.indentline',
   },
   -- Configure any other settings here. See the documentation for more details.
   -- colorscheme that will be used when installing plugins.
