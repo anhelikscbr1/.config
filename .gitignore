@@ -1,2 +1,15 @@
 lazy-lock.json
 gh/
+caja/
+cinnamon/
+cinnamon-monitors.xml
+dconf/
+evolution/
+gtk-3.0/
+menus/
+nemo/
+pulse/
+user-dirs.dirs
+user-dirs.locale
+xdg-terminals.list
+X-Cinnamon-xdg-terminals.list
