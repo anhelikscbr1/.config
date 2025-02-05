@@ -1,3 +1,4 @@
+--vim.loader.disable()
 require("core.keymaps")
 require("core.options")
 
@@ -55,4 +56,9 @@ require("lazy").setup({
 	--install = { colorscheme = { "habamax" } },
 	-- automatically check for plugin updates
 	checker = { enabled = true },
+	--performance = {
+	--cache = {
+	--enabled = false,
+	--},
+	------------------},
 })
