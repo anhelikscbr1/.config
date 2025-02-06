@@ -9,7 +9,9 @@ gtk-3.0/
 menus/
 nemo/
 pulse/
+google-chrome/
 user-dirs.dirs
 user-dirs.locale
 xdg-terminals.list
 X-Cinnamon-xdg-terminals.list
+mimeapps.list
