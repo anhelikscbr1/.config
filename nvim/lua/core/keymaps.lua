@@ -18,7 +18,7 @@ vim.keymap.set("i", "<C-s>", "<cmd> w <CR>", opts)
 vim.keymap.set("n", "<leader>sn", "<cmd>noautocmd w <CR>", opts)
 
 -- quit file
-vim.keymap.set("n", "<C-q>", "<cmd> q <CR>", opts)
+vim.keymap.set("n", "<C-w>", "<cmd> q <CR>", opts)
 
 -- delete single character without copying into register
 vim.keymap.set("n", "x", '"_x', opts)
@@ -32,8 +32,8 @@ vim.keymap.set("n", "n", "nzzzv", opts)
 vim.keymap.set("n", "N", "Nzzzv", opts)
 
 -- Resize with arrows
-vim.keymap.set("n", "<Up>", ":resize -2<CR>", opts)
-vim.keymap.set("n", "<Down>", ":resize +2<CR>", opts)
+vim.keymap.set("n", "<Up>", ":resize -1<CR>", opts)
+vim.keymap.set("n", "<Down>", ":resize +1<CR>", opts)
 vim.keymap.set("n", "<Left>", ":vertical resize -2<CR>", opts)
 vim.keymap.set("n", "<Right>", ":vertical resize +2<CR>", opts)
 

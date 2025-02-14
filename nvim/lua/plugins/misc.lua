@@ -35,6 +35,7 @@ return {
 		end,
 	},
 	{
+		--To add indentation lines
 		"lukas-reineke/indent-blankline.nvim",
 		main = "ibl",
 		---@module "ibl"

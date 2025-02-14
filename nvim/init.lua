@@ -51,6 +51,9 @@ require("lazy").setup({
 		require("plugins.startscreenalpha"),
 		require("plugins.none-ls"), --to autoformat files
 		require("plugins.mini"),
+		require("plugins.snacks"),
+		require("plugins.obsidianNvim"),
+		require("plugins.markdownNvim"),
 	},
 	-- Configure any other settings here. See the documentation for more details.
 	-- colorscheme that will be used when installing plugins.
