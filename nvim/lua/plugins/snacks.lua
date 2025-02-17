@@ -9,28 +9,28 @@ return {
 	},
 	keys = {
 		{
-			"<leader>lg",
+			"<leader>gl",
 			function()
 				require("snacks").lazygit()
 			end,
 			desc = "Lazygit",
 		},
 		{
-			"<leader>gl",
+			"<leader>lg",
 			function()
 				require("snacks").lazygit.log()
 			end,
 			desc = "Lazygit Logs",
 		},
 		{
-			"<leader>Z",
+			"<leader>z",
 			function()
 				Snacks.zen()
 			end,
 			desc = "Toggle Zen Mode",
 		},
 		{
-			"<leader>z",
+			"<leader>Z",
 			function()
 				Snacks.zen.zoom()
 			end,

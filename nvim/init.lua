@@ -2,7 +2,6 @@
 require("core.keymaps")
 require("core.options")
 
-vim.wo.number = true
 -- Bootstrap lazy.nvim
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not (vim.uv or vim.loop).fs_stat(lazypath) then
@@ -54,6 +53,7 @@ require("lazy").setup({
 		require("plugins.snacks"),
 		require("plugins.obsidianNvim"),
 		require("plugins.markdownNvim"),
+		require("plugins.lualine"),
 	},
 	-- Configure any other settings here. See the documentation for more details.
 	-- colorscheme that will be used when installing plugins.
